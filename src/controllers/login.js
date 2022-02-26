@@ -1,7 +1,8 @@
-// const bcrypt = require('bcrypt');
-// const User = require('../models/user');
-// const { generateToken } = require('../utils/jwt');
-// const joi = require('joi');
+//aaaaaaaaaaaaaaaaa
+const bcrypt = require('bcrypt');
+const User = require('../models/user');
+const { generateToken } = require('../utils/jwt');
+const joi = require('joi');
 const login = async (req, res) => {
   const { email, password } = req.body;
 
